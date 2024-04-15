@@ -1,0 +1,5 @@
+#!/bin/bash
+# Display listening ports using netstat
+
+# Run as root or with sudo
+sudo netstat -tunlp

@@ -1,0 +1,8 @@
+#!/bin/bash
+# Script to ping an IP address
+
+if ping -c 1 "$1" &> /dev/null; then
+    echo "Ping to $1 succeeded."
+else
+    echo "Ping to $1 failed."
+fi
